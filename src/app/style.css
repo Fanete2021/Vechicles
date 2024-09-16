@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "DMSansRegular";
+  src: url("@/shared/assets/fonts/DMSansRegular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DMSansRegular";
+}
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  font: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
